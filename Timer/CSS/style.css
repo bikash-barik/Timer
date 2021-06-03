@@ -1,0 +1,92 @@
+
+body {
+  background-color: #7e98e2;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  /*text-align: center;*/
+  line-height: 59px;
+  margin: 0;
+  padding: 3px 0px
+}
+
+.stopwatch {
+  left: 150px;
+  display: grid;
+/*  justify-items: right;
+*/  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+  
+}
+.head{
+  left:250px;
+  display: grid;
+/*  justify-items: right;
+*/  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 270px;
+  width: 270px;
+
+  border: 2px solid;
+  border-radius: 50%;
+  
+}
+
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.gold {
+  left: 59px;
+  font-weight: 900;
+  /*justify-content: left;*/
+  color: #f2c94c;
+  text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 187px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
+.countdown1{
+  margin: -314px 13px;
+  display: inline-block;
+    position: absolute;
+    left: 1041px;
+
+}
